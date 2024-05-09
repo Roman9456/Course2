@@ -84,15 +84,13 @@ body {
 }
 
 .popup__container__form__dropbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   box-sizing: border-box;
   padding-left: 19px;
   width: 100%;
   height: 49px;
   border: 1px solid transparent;
   background-color: #f4f7f6;
-  background-image: url("../images/svg/form-arrows.svg");
+  background-image: url("../svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 15px center;
   background-size: auto 17px;
@@ -120,7 +118,7 @@ body {
   vertical-align: middle;
   width: 26px;
   height: 26px;
-  background-image: url("../images/svg/form-empty-circle.svg");
+  background-image: url("../svg/form-empty-circle.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 26px;
@@ -128,7 +126,7 @@ body {
 
 .popup__container__form__radio:checked
   + .popup__container__form__radio__text::before {
-  background-image: url("../images/svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 
 .popup__container__form__textarea {
@@ -170,10 +168,12 @@ body {
 .header {
   min-height: 450px;
   background-color: #666666;
-  background-image: url("../images/img/banner-bg.jpg");
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), 
+    url("../img/banner-bg.jpg"); 
   background-size: cover;
   background-position: center;
-
+  
   color: #ffffff;
   font-family: OpenSans, sans-serif;
   text-transform: uppercase;
@@ -363,22 +363,22 @@ body {
 }
 
 .trends__container__item:nth-child(1) {
-  background-image: url("../images/img/trend1.png");
+  background-image: url("../img/trend1.jpg");
   background-size: cover;
 }
 
 .trends__container__item:nth-child(2) {
-  background-image: url("../images/img/trend2.jpg");
+  background-image: url("../img/trend2.jpg");
   background-size: cover;
 }
 
 .trends__container__item:nth-child(3) {
-  background-image: url("../images/img/trend3.jpg");
+  background-image: url("../img/trend3.jpg");
   background-size: cover;
 }
 
 .trends__container__item:nth-child(4) {
-  background-image: url("../images/img/trend4.jpg");
+  background-image: url("../img/trend4.jpg");
   background-size: cover;
 }
 

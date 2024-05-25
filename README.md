@@ -8,8 +8,6 @@ Clone the repository to your local machine:
 
 git clone https://git@github.com:Roman9456/HealthBlog.git
 Navigate to the project directory:
-
-cd ваша-директория
 Open the index.html file in your browser 🌐
 
 
@@ -36,9 +34,8 @@ If you have any questions or difficulties, feel free to contact me (contact deta
 Клонируйте репозиторий на локальную машину:
 
 git clone https://git@github.com:Roman9456/HealthBlog.git
-Перейдите в директорию проекта:
 
-cd ваша-директория
+Перейдите в директорию проекта:
 Откройте файл index.html в вашем браузере 🌐
 
 
